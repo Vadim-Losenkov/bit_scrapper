@@ -14,15 +14,7 @@ from telegram_info import token_bot, chat_id
 from multiprocessing.pool import ThreadPool as Pool
 
 c.init()
-banner = f'''{c.Fore.LIGHTGREEN_EX}
-
-█▄▄ █ ▀█▀ █▀▀ █▀█ █ █▄░█
-█▄█ █ ░█░ █▄▄ █▄█ █ █░▀█
-
-█▀ █▀▀ █▀█ ▄▀█ █▀█ █▀█ █▀▀ █▀█
-▄█ █▄▄ █▀▄ █▀█ █▀▀ █▀▀ ██▄ █▀▄
-{c.Style.RESET_ALL}
-'''
+banner = ''
 print(banner)
 
 class Info:
